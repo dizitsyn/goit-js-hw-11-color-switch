@@ -33,6 +33,7 @@ function stoping() {
 function colorChenging() {
     const randomNum = randomIntegerFromInterval(0, 5);
     const color = colors[randomNum];
+    console.log(color);
     bodyRef.style.backgroundColor = `${color}`;
  }
 
